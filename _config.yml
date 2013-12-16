@@ -1,0 +1,4 @@
+name: EEG.li
+markdown: redcarpet
+pygments: true
+permalink: pretty
