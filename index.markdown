@@ -7,7 +7,7 @@ title: "Electroencephalography: An Amateur Scientist's Guide"
 ================
 
 > <q>As they could not reach me, they resolved to punish my body</q><br>
-> &ndash;Henry David Thoreau, on his night in jail
+> &ndash;Henry David Thoreau, on being jailed
 
 Now is the autodidact's golden age. The Internet puts a wealth of near-instant knowledge at our fingertips, and the state-of-the-art of yesteryear is now affordable for lone individuals.
 
