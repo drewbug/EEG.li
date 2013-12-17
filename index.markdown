@@ -17,6 +17,8 @@ Electroencephalography (EEG) is the recording of electrical current passing thro
 
 For most of human history, our only way of communicating with the outside world was with muscle movements. In the past century, this has changed. With EEG, paralyzed people are [communicating with the world around them](http://www.medscape.com/viewarticle/496019), and even [walking around in it](http://neurogadget.com/2013/03/13/mindwalker-exoskeleton-uses-eeg-cap-to-help-disabled-people-walk-again/7532).
 
+A common sentiment among sufferers of epilepsy is that the constant worry that comes from not knowing _when_ a seizure will strike is as bad as, if not worse than, the seizures themselves. [The ability to predict a seizure before it happens](https://en.wikipedia.org/wiki/Seizure_prediction) is made possible by EEG, and for many patients, including those who are not responsive to anticonvulsant medications, this could be a godsend.
+
 Many of the cognitive algorithms our brains use are not be able to be perceived consciously. [Using EEG (and other technologies), we can watch our brains at work](http://lesswrong.com/lw/j2p/research_on_unconscious_visual_processing/). Reverse engineering is the only way we are going to obtain the blueprints of the mind, and EEG just might be the best gross level analysis tool at our disposal.
 
 Hardware
