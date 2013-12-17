@@ -34,3 +34,5 @@ Software
 For purposes of acheiving interoperability between various software components, it is useful to make a distinction between the acquisition and the processing of EEG data. One extremely helpful tool for this is the FieldTrip Buffer, created by the great people over at the [Donders Institute for Brain, Cognition and Behaviour](http://fieldtrip.fcdonders.nl/). In their own words:
 
 > <q>The FieldTrip buffer is used to communicate between separate application programs. One application program is responsible for the acquisition of the data, and it will write the data (and optionally also trigger events) to the buffer. Other application programs can connect to read the data and the events from the buffer and optionally also write new events (e.g. as output of some BCI classification algorithm) to the buffer.</q>
+
+The FieldTrip Buffer is cross-platform, open-source, actively maintained, language-agnostic, and easy to use. For a quick demonstration of how it works, see [How should I get started with the FieldTrip realtime buffer?](http://fieldtrip.fcdonders.nl/faq/how_should_i_get_started_with_the_fieldtrip_realtime_buffer). 
