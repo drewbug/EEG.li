@@ -24,7 +24,7 @@ Hardware
 
 The current state of consumer EEG hardware is very friendly to the citizen scientist.
 
-On the asbsolute lowest end of the price scale, I know of at least one inexpensive [toy](http://frontiernerds.com/brain-hack) that can be repurposed as passable equipment. However, I'm of the opinion that the best wallet-friendly option is the [Olimex EEG-SMT](https://www.olimex.com/Products/EEG/OpenEEG/EEG-SMT/), which comes pre-assembled and requires no prior electronics experience. For more possibilites, see [here](http://openvibe.inria.fr/forum/viewtopic.php?t=526#p3251).
+On the asbsolute lowest end of the price scale, I know of at least one inexpensive [toy](http://frontiernerds.com/brain-hack) that can be repurposed as passable equipment. However, I'm of the opinion that the best wallet-friendly option is the [Olimex EEG-SMT](https://www.olimex.com/Products/EEG/OpenEEG/EEG-SMT/), which comes pre-assembled and requires no prior electronics experience. For more possibilites, see [EEG hardware possibilities for research](http://openvibe.inria.fr/forum/viewtopic.php?t=526#p3251).
 
 One thing that is important to keep in mind is that some manufacturers design their equipment to offer only preprocessed data, rather than the raw EEG stream that you want. The canonical example of this is Emotiv, who deliberately crippled their EPOC device in a scheme aimed at making more money through the sale of their "Research Edition" SDK. Luckily, [keeping a determined hacker down is not an easy task](http://daeken.com/2010-09-13_Emokit__Hacking_the_Emotiv_EPOC_Brain-Computer_Interface.html), and open-source software has been written that subverts the restrictions.
 
