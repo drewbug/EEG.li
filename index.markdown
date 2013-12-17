@@ -43,4 +43,4 @@ The FieldTrip Buffer is cross-platform, open-source, actively maintained, langua
 
 There are different possibilities for streaming data from your hardware into the FieldTrip Buffer. As an example, users of the Olimex EEG-SMT can use [modeeg2ft](http://fieldtrip.googlecode.com/svn/trunk/realtime/src/acquisition/modeeg/modeeg2ft.cc). For more implementations, see [**Implementations for aquisition systems**](http://fieldtrip.fcdonders.nl/development/realtime/implementation#implementations_for_aquisition_systems).
 
-If nobody has written an aquisition system for your hardware yet, do not fret. Writing to a FieldTrip Buffer is a lot easier than it may sound.
+If nobody has programmed an aquisition system for your hardware yet, do not fret. Writing to a FieldTrip Buffer is a lot easier than it may sound.
