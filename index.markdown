@@ -11,7 +11,7 @@ title: "Electroencephalography: An Amateur Scientist's Guide"
 
 Now is the autodidact's golden age. The Internet puts a wealth of near-instant knowledge at our fingertips, and the state-of-the-art of yesteryear is now affordable for lone individuals.
 
-For less than €100, you can join the quest to unravel the mysteries of the universe.
+For less than €150, you can join the quest to unravel the mysteries of the universe.
 
 Electroencephalography (EEG) is the recording of electrical current passing through neurons. This allows for measuring brain activity as it unfolds.
 
