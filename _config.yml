@@ -1,4 +1,6 @@
 name: "Electroencephalography: An Amateur Scientist's Guide"
 markdown: redcarpet
+redcarpet:
+    extensions: [with_toc_data]
 pygments: true
 permalink: pretty
