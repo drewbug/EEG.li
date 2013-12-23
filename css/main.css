@@ -40,6 +40,29 @@ blockquote { background-color: #F5F5F5; }
   color: #aaa;
 }
 
+.toc-wrap { text-align: center; }
+
+.toc {
+  padding: 7px;
+  text-align: left;
+  display: inline-block;
+  list-style-type: none;
+  border: 1px solid #AAAAAA;
+  background-color: #F9F9F9;
+}
+
+.toc-title {
+  font-weight: bold;
+  text-align: center;
+}
+
+.toc a {
+  color: #0645AD;
+  text-decoration: none;
+}
+
+.toc a:hover { text-decoration:underline; }
+
 .footer {
   font-size: 80%;
   color: #666;

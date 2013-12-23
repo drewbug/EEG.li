@@ -19,6 +19,15 @@ A common sentiment among sufferers of epilepsy is that the constant worry that c
 
 Many of the cognitive algorithms our brains use are not be able to be perceived consciously. [Using EEG (and other technologies), we can watch our brains at work](http://lesswrong.com/lw/j2p/research_on_unconscious_visual_processing/). Reverse engineering is the only way we are going to obtain the blueprints of the mind, and EEG just might be the best gross level analysis tool at our disposal.
 
+<div class="toc-wrap">
+  <ul class="toc">
+    <li class="toc-title">Contents</li>
+    <li><a href="#toc_0">1 Hardware</a></li>
+    <li><a href="#toc_1">2 FieldTrip Buffer</a></li>
+    <li><a href="#toc_2">3 Buffer Viewer</a></li>
+  </ul>
+</div>
+
 Hardware
 --------
 
