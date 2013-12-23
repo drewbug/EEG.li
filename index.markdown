@@ -6,6 +6,8 @@ title: "Electroencephalography: An Amateur Scientist's Guide"
 {{ page.title }}
 ================
 
+<img style="width: 100%" src="{{ site.url }}/assets/brain.png">
+
 > <q>As they could not reach me, they resolved to punish my body</q><br>
 > &ndash;Henry David Thoreau, on being jailed
 
