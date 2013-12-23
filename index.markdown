@@ -34,14 +34,14 @@ Hardware
 
 The current state of consumer EEG hardware is very friendly to the citizen scientist.
 
-On the asbsolute lowest end of the price scale, I know of at least one inexpensive [toy](http://frontiernerds.com/brain-hack) that can be repurposed as passable equipment. However, I'm of the opinion that the best wallet-friendly option is the [Olimex EEG-SMT](https://www.olimex.com/Products/EEG/OpenEEG/EEG-SMT/), which comes pre-assembled and requires no prior electronics experience. For more possibilites, see [**EEG hardware possibilities for research**](http://openvibe.inria.fr/forum/viewtopic.php?t=526#p3251).
+On the absolute lowest end of the price scale, I know of at least one inexpensive [toy](http://frontiernerds.com/brain-hack) that can be repurposed as passable equipment. However, I'm of the opinion that the best wallet-friendly option is the [Olimex EEG-SMT](https://www.olimex.com/Products/EEG/OpenEEG/EEG-SMT/), which comes pre-assembled and requires no prior electronics experience. For more possibilities, see [**EEG hardware possibilities for research**](http://openvibe.inria.fr/forum/viewtopic.php?t=526#p3251).
 
 One thing that is important to keep in mind is that some manufacturers design their equipment to offer only preprocessed data, rather than the raw EEG stream that you want. The canonical example of this is Emotiv, who deliberately crippled their EPOC device in a scheme aimed at making more money through the sale of their "Research Edition" SDK. Luckily, [keeping a determined hacker down is not an easy task](http://daeken.com/2010-09-13_Emokit__Hacking_the_Emotiv_EPOC_Brain-Computer_Interface.html), and open-source software has been written that subverts the restrictions.
 
 FieldTrip Buffer
 ----------------
 
-For purposes of acheiving interoperability between various software components, it is useful to make a distinction between the acquisition and the processing of EEG data. One extremely helpful tool for this is the FieldTrip Buffer, created by the great people over at the [Donders Institute for Brain, Cognition and Behaviour](http://fieldtrip.fcdonders.nl/). In their own words:
+For purposes of achieving interoperability between various software components, it is useful to make a distinction between the acquisition and the processing of EEG data. One extremely helpful tool for this is the FieldTrip Buffer, created by the great people over at the [Donders Institute for Brain, Cognition and Behaviour](http://fieldtrip.fcdonders.nl/). In their own words:
 
 > <q>The FieldTrip buffer is used to communicate between separate application programs. One application program is responsible for the acquisition of the data, and it will write the data (and optionally also trigger events) to the buffer. Other application programs can connect to read the data and the events from the buffer and optionally also write new events (e.g. as output of some BCI classification algorithm) to the buffer.</q>
 
@@ -49,7 +49,7 @@ The FieldTrip Buffer is cross-platform, open-source, actively maintained, langua
 
 There are different possibilities for streaming data from your hardware into the FieldTrip Buffer. As an example, users of the Olimex EEG-SMT can use [modeeg2ft](http://fieldtrip.googlecode.com/svn/trunk/realtime/src/acquisition/modeeg/modeeg2ft.cc). For more implementations, see [**Implementations for aquisition systems**](http://fieldtrip.fcdonders.nl/development/realtime/implementation#implementations_for_aquisition_systems).
 
-If nobody has programmed an aquisition system for your hardware yet, do not fret. Writing to a FieldTrip Buffer is a lot easier than it may sound.
+If nobody has programmed an acquisition system for your hardware yet, do not fret. Writing to a FieldTrip Buffer is a lot easier than it may sound.
 
 Buffer Viewer
 -------------
@@ -61,4 +61,4 @@ Once you have a FieldTrip Buffer up and running, one of the simplest ways to get
 Push-Button Retinas
 -------------------
 
-When you close your eyes, the back of your brain produces signifcantly more alpha waves than when your eyes are open. By monitoring for this change, we can treat the closing of the eyes as the pushing of a "button". While not exactly _useful_ for most people, this is an easy starting point for the implementation of a very rudimentary brain-computer interface. 
+When you close your eyes, the back of your brain produces significantly more alpha waves than when your eyes are open. By monitoring for this change, we can treat the closing of the eyes as the pushing of a "button". While not exactly _useful_ for most people, this is an easy starting point for the implementation of a very rudimentary brain-computer interface. 
