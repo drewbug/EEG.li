@@ -28,16 +28,14 @@ On the asbsolute lowest end of the price scale, I know of at least one inexpensi
 
 One thing that is important to keep in mind is that some manufacturers design their equipment to offer only preprocessed data, rather than the raw EEG stream that you want. The canonical example of this is Emotiv, who deliberately crippled their EPOC device in a scheme aimed at making more money through the sale of their "Research Edition" SDK. Luckily, [keeping a determined hacker down is not an easy task](http://daeken.com/2010-09-13_Emokit__Hacking_the_Emotiv_EPOC_Brain-Computer_Interface.html), and open-source software has been written that subverts the restrictions.
 
-Software
---------
+FieldTrip Buffer
+----------------
 
 For purposes of acheiving interoperability between various software components, it is useful to make a distinction between the acquisition and the processing of EEG data. One extremely helpful tool for this is the FieldTrip Buffer, created by the great people over at the [Donders Institute for Brain, Cognition and Behaviour](http://fieldtrip.fcdonders.nl/). In their own words:
 
 > <q>The FieldTrip buffer is used to communicate between separate application programs. One application program is responsible for the acquisition of the data, and it will write the data (and optionally also trigger events) to the buffer. Other application programs can connect to read the data and the events from the buffer and optionally also write new events (e.g. as output of some BCI classification algorithm) to the buffer.</q>
 
 The FieldTrip Buffer is cross-platform, open-source, actively maintained, language-agnostic, and easy to use. For a quick demonstration of how it works, see [**How should I get started with the FieldTrip realtime buffer?**](http://fieldtrip.fcdonders.nl/faq/how_should_i_get_started_with_the_fieldtrip_realtime_buffer). 
-
-### Acquisition
 
 There are different possibilities for streaming data from your hardware into the FieldTrip Buffer. As an example, users of the Olimex EEG-SMT can use [modeeg2ft](http://fieldtrip.googlecode.com/svn/trunk/realtime/src/acquisition/modeeg/modeeg2ft.cc). For more implementations, see [**Implementations for aquisition systems**](http://fieldtrip.fcdonders.nl/development/realtime/implementation#implementations_for_aquisition_systems).
 
