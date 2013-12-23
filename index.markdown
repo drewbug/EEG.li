@@ -1,10 +1,6 @@
 ---
 layout: default
-title: "Electroencephalography: An Amateur Scientist's Guide"
 ---
-
-{{ page.title }}
-================
 
 <img style="width: 100%" src="{{ site.url }}/assets/brain.png">
 
