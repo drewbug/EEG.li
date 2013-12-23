@@ -25,6 +25,7 @@ Many of the cognitive algorithms our brains use are not be able to be perceived 
     <li><a href="#toc_0">1 Hardware</a></li>
     <li><a href="#toc_1">2 FieldTrip Buffer</a></li>
     <li><a href="#toc_2">3 Buffer Viewer</a></li>
+    <li><a href="#toc_3">4 Push-Button Retinas</a></li>
   </ul>
 </div>
 
@@ -56,3 +57,8 @@ Buffer Viewer
 Once you have a FieldTrip Buffer up and running, one of the simplest ways to get started is to use the [FieldTrip Realtime Buffer Viewer](http://fieldtrip.fcdonders.nl/development/realtime/bufferviewer) to watch your brainwaves scroll by.
 
 > <q>The two sliders and scrollbars can be used to browse through the various channels, as well as to change the distance between successive channels (“space”) and the magnification of the signals (“scale”).</q>
+
+Push-Button Retinas
+-------------------
+
+When you close your eyes, the back of your brain produces signifcantly more alpha waves than when your eyes are open. By monitoring for this change, we can treat the closing of the eyes as the pushing of a "button". While not exactly _useful_ for most people, this is an easy starting point for the implementation of a very rudimentary brain-computer interface. 
