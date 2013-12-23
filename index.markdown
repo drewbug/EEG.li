@@ -40,3 +40,10 @@ The FieldTrip Buffer is cross-platform, open-source, actively maintained, langua
 There are different possibilities for streaming data from your hardware into the FieldTrip Buffer. As an example, users of the Olimex EEG-SMT can use [modeeg2ft](http://fieldtrip.googlecode.com/svn/trunk/realtime/src/acquisition/modeeg/modeeg2ft.cc). For more implementations, see [**Implementations for aquisition systems**](http://fieldtrip.fcdonders.nl/development/realtime/implementation#implementations_for_aquisition_systems).
 
 If nobody has programmed an aquisition system for your hardware yet, do not fret. Writing to a FieldTrip Buffer is a lot easier than it may sound.
+
+Buffer Viewer
+-------------
+
+Once you have a FieldTrip Buffer up and running, one of the simplest ways to get started is to use the [FieldTrip Realtime Buffer Viewer](http://fieldtrip.fcdonders.nl/development/realtime/bufferviewer) to watch your brainwaves scroll by.
+
+> <q>The two sliders and scrollbars can be used to browse through the various channels, as well as to change the distance between successive channels (“space”) and the magnification of the signals (“scale”).</q>
